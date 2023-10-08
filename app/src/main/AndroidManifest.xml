@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.moodyeats">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logomoodyeats"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logomoodyeats"
+
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MoodyEats">
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-9331202938399552~6230657773"
+            />
+        <activity
+            android:name=".profile"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".signup"
+            android:exported="true"></activity><activity
+            android:name=".login"
+            android:exported="true"></activity>
+        <activity
+            android:name=".updatePassword"
+            android:exported="true"></activity>
+        <activity
+            android:name=".home"
+            android:exported="true"></activity>
+        <activity
+            android:name=".ResultActivity"
+            android:exported="true"></activity>
+        <activity
+            android:name=".quizmain"
+            android:exported="true"></activity>
+        <activity
+            android:name=".QuizQuestionsActivity"
+            android:exported="true"></activity>
+
+    </application>
+
+</manifest>

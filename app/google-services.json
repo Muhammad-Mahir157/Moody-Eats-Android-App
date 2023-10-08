@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "527557779027",
+    "project_id": "moody-eats",
+    "storage_bucket": "moody-eats.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:527557779027:android:d3054be6e1fd62ef22f0a6",
+        "android_client_info": {
+          "package_name": "com.example.moodyeats"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "527557779027-v156r7mk9l7t850hjs1h0fq6okua9ncs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1WRHkzBzO5EkwRoSjcufR7aJI_PFi7P8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "527557779027-v156r7mk9l7t850hjs1h0fq6okua9ncs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
